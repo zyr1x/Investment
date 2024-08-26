@@ -1,0 +1,12 @@
+name: SlideInvestment
+version: '${project.version}'
+main: ru.lewis.slideinvestment.Main
+author: lewis
+depend:
+  - Vault
+  - ProtocolLib
+api-version: '1.16'
+
+commands:
+  investment:
+    description: команда чтобы инвестировать монетки
